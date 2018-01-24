@@ -397,8 +397,11 @@ section h3.section-subheading {
   margin: -15% 1% 0 0;
 }
 .backimage{
-  background-size: 100% 100%;
-  background-image: url('../image/ighyun/mainimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-image: url('../image/main.jpg');
 
 }
 .container2 div:nth-child(1){
